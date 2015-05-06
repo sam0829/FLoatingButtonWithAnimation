@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvDummy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#F2F2F2"
+        android:divider="@android:color/transparent" />
+
+    <com.sam.floatingbuttonwithanimation.fab.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        fab:fab_colorNormal="@android:color/holo_red_light"
+        fab:fab_colorPressed="@android:color/holo_red_dark"
+        fab:fab_icon="@drawable/ic_content_add" />
+</RelativeLayout>

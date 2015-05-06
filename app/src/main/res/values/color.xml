@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#296da7</color>
+    <color name="primaryDark">#256297</color>
+    <color name="accent">#5E5154</color>
+    <color name="card_layout_background">#EEEEEE</color>
+
+    <!-- SWIPE DOWN TO REFRESH COLOR -->
+    <color name="color_1">#483A9E</color>
+    <color name="color_2">#656469</color>
+
+</resources>
